@@ -1,0 +1,6 @@
+Variables : 
+*******************************
+A variable name must begin with an alphabet or an underscore(_).
+A variable name can only contain alphabets, digits, and underscores and $.
+A variable name cannot contain white spaces.
+A variable name cannot be a keyword or a reserved word.
