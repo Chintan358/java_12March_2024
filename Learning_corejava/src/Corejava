@@ -73,6 +73,25 @@ Arithmatic operator
 
 
 
+***********************************************
+Statements
+
+conditional : 
+if
+if-else
+switch-case
+
+
+looping : 
+for
+while
+do-while
+
+
+
+
+
+
 
 
 
