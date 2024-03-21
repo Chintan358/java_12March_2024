@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;B002_Primecheck.java&apos; to &apos;Learning_corejava/src/basicpractical&apos;&#x0D;&#x0A;- Original project: &apos;Learning_corejava&apos;&#x0D;&#x0A;- Destination element: &apos;Learning_corejava/src/basicpractical&apos;&#x0D;&#x0A;- Original element: &apos;basicpractical.B002_Primecheck.java&apos;" description="Copy compilation unit" destination="/src&lt;basicpractical" element1="/src&lt;basicpractical{B002_Primecheck.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1711021966630" units="1" version="1.0"/>
+</session>

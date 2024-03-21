@@ -1,0 +1,18 @@
+package basicpractical;
+
+public class B001_OddEven {
+	
+		
+	int a = 20;
+	
+	if(a%2 == 0)
+	{
+		System.out.println(a+" : is even");
+	}
+	else
+	{
+		System.out.println(a+" : is Odd");
+	}
+	
+	
+}
