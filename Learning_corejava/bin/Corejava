@@ -45,7 +45,7 @@ Variables :
 
 Datatypes : 
 
-byte	0	1byte      2^7-1 to -2^7 : 127 to -128
+byte	0	1 byte      2^7-1 to -2^7 : 127 to -128
 short	0	2 byte     2^15-1 to -2^15 : 32767 to -32768
 int		0	4 byte
 long	0	8 byte

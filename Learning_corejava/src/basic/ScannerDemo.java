@@ -7,6 +7,7 @@ public class ScannerDemo {
 			
 			
 			Scanner sc = new Scanner(System.in);
+			
 			System.out.println("enter value of a  :");
 			int a = sc.nextInt();
 			System.out.println("enter value of b : ");
