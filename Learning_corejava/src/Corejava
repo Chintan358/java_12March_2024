@@ -87,12 +87,44 @@ for
 while
 do-while
 
+*****************************************
+OOPs : 
+
+class
+object
+encaptulation
+inheritance
+polymorphism
+abstraction
 
 
 
 
+Class : 
+logical entity
+
+Object : 
+real time entity
+
+Object scan have state and behaviour
+
+state / datamemeber / variables
+behaviour / function memeber / method
 
 
+method : 
+
+accessmodifier returtye* methodname*(args)
+{
+	//logic
+}
+
+******************************
+data memeber and function member can  be of two types 
+static - class memeber
+non-static - instance memember
+
+*************************
 
 
 
