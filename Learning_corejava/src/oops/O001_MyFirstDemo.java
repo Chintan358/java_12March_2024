@@ -33,6 +33,9 @@ public class O001_MyFirstDemo {
 		p3.toWrite();
 		
 		Pen.sample();
+		
+		Access a = new Access();
+		a.display();
 	
 	}
 }
