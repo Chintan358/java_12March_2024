@@ -10,4 +10,12 @@
     <fullyQualifiedTypeName name="oops.Student"/>
     <fullyQualifiedTypeName name="oops.Demo"/>
     <fullyQualifiedTypeName name="oops.Calc"/>
+    <fullyQualifiedTypeName name="oops.Access"/>
+    <fullyQualifiedTypeName name="oops.Emp"/>
+    <fullyQualifiedTypeName name="oops.B"/>
+    <fullyQualifiedTypeName name="oops.Pen1"/>
+    <fullyQualifiedTypeName name="oops.Calc1"/>
+    <fullyQualifiedTypeName name="oops.Q"/>
+    <fullyQualifiedTypeName name="oops.AbsImpl"/>
+    <fullyQualifiedTypeName name="oops.InterImpl"/>
 </qualifiedTypeNameHistroy>

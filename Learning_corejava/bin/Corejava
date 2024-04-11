@@ -126,6 +126,27 @@ non-static - instance memember
 
 *************************
 
+Abstraction : 
+Abstract class - partial
+-abstract method and instanc emethod
+
+Interface - 100%
+-abstract method
+
+abstract method : 
+method without body
+public void display();
+
+instanc emethod : 
+method with body
+public void display()
+{
+}
+
+
+
+
+
 
 
 
