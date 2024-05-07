@@ -1,0 +1,20 @@
+Webelements : 
+***********************
+textbox
+button
+checkbox
+radiobutton
+dropdown
+link
+
+
+Locators : 
+******************
+id
+name 
+classname
+css selector
+xpath
+tagname
+linktext
+partial linktext
