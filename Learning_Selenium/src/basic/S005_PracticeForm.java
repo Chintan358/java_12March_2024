@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 
 public class S005_PracticeForm {
 	public static void main(String[] args) {
@@ -33,6 +34,20 @@ public class S005_PracticeForm {
 		List<WebElement> tool = driver.findElements(By.name("tool"));
 		pro.get(0).click();
 		pro.get(1).click();
+		
+		WebElement cont = driver.findElement(By.id("continents"));
+		Select conts =  new Select(cont);
+		conts.selectByVisibleText("Africa");
+		
+		WebElement command = driver.findElement(By.id("selenium_commands"));
+		Select commands = new Select(command);
+		commands.selectByVisibleText("Navigation Commands");
+		commands.selectByVisibleText("Switch Commands");
+		
+		
+		driver.findElement(By.id("photo")).sendKeys("C:\\Users\\pc\\Downloads\\img\\bat.jpg");
+		
+		driver.findElement(By.linkText("Click here to Download File")).click();
 		
 		}
 }
