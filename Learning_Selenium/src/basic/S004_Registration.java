@@ -1,5 +1,6 @@
 package basic;
 
+import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -21,12 +22,13 @@ public class S004_Registration {
 	
 		driver.findElement(By.linkText("Create new account")).click();
 		
-		try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+//		try {
+//			Thread.sleep(2000);
+//		} catch (InterruptedException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
 		
 		driver.findElement(By.name("firstname")).sendKeys("Dhara");
 		driver.findElement(By.name("lastname")).sendKeys("Kachhadiya");

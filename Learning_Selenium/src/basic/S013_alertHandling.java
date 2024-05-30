@@ -20,6 +20,7 @@ public class S013_alertHandling {
 		
 		driver.findElement(By.cssSelector("ul.nav.nav-tabs>li:nth-of-type(2)>a")).click();
 		driver.findElement(By.xpath("//div[@id='CancelTab']/button")).click();
+		
 		Alert alert = driver.switchTo().alert();
 		//alert.accept();
 		alert.dismiss();
