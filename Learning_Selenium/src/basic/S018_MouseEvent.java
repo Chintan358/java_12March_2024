@@ -26,14 +26,14 @@ public class S018_MouseEvent {
 		Actions builder = new Actions(driver);
 		
 		
-		//builder.dragAndDrop(i1, trash).build().perform();
-//		for(int i=1;i<=4;i++)
-//		{
-//			builder.dragAndDrop(driver.findElement(By.xpath("//ul[@id='gallery']/li["+i+"]")), trash).build().perform();
-//		}
+		builder.dragAndDrop(i1, trash).build().perform();
+		for(int i=1;i<=4;i++)
+		{
+			builder.dragAndDrop(driver.findElement(By.xpath("//ul[@id='gallery']/li["+i+"]")), trash).build().perform();
+		}
 		
-		Action e1 =  builder.clickAndHold(i1).moveToElement(trash).build();
+//		Action e1 =  builder.clickAndHold(i1).moveToElement(trash).build();
 		
-		e1.perform();
+		//e1.perform();
 	}
 }
