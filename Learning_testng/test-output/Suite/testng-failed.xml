@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listener.MyTestListener"/>
+  </listeners>
   <test name="Test(failed)">
-    <parameter name="uname" value="dhara"/>
-    <parameter name="pass" value="123"/>
     <classes>
-      <class name="parameters.Login">
+      <class name="listener.FBlogin">
         <methods>
-          <include name="test" invocation-numbers="0"/>
+          <include name="test" invocation-numbers="0 1 2 3"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- parameters.Login -->
+      </class> <!-- listener.FBlogin -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
