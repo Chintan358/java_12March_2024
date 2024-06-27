@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.Login2">
+      <class name="com.KeywordDriven">
         <methods>
-          <include name="setup"/>
-          <include name="test"/>
+          <include name="test" invocation-numbers="2 3 4"/>
         </methods>
-      </class> <!-- com.Login2 -->
+      </class> <!-- com.KeywordDriven -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
