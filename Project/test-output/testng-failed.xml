@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listener.TestListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="main.LoginTest_2">
+        <methods>
+          <include name="logincheck" invocation-numbers="3"/>
+        </methods>
+      </class> <!-- main.LoginTest_2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
